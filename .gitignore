@@ -1,1 +1,25 @@
-node_modules
+node_modules# Node modules
+node_modules/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Cypress cache
+.cypress-cache/
+CypressCache/
+CypressDownloads/
+
+# Results or summary logs
+cypress-summary.txt
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# OS & editor metadata
+.vscode/
