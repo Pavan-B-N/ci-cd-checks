@@ -31,7 +31,7 @@ jobs:
           zip -r build/node-server-build-${{ github.sha }}.zip . -x "node_modules/*"
 
       - name: Upload build artifact with unique tag
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with: # 	Inputs passed to an action
           name: node-server-${{ github.sha }}
           path: build/node-server-build-${{ github.sha }}.zip
